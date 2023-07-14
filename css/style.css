@@ -1,0 +1,213 @@
+.content-footer {
+    border: 1px solid #E4E4E4;
+    background: #FFF;
+}
+
+.context-footer {
+    border: 1px solid #E4E4E4;
+    background: #FFF;
+    margin-top: 108px;
+}
+
+.context-main nav p {
+    color: #333;
+    font-family: 'MS Mincho';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 151px;
+    margin-top: 26px;
+}
+
+.context-main nav p br {
+    display: block;
+    content: "";
+    margin-top: 20px;
+}
+
+.context-main h4 {
+    margin-bottom: 35px;
+}
+.context-main h4 a {
+    text-decoration: none;
+    color: #589CC6;
+    font-family: 'MS Mincho';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.context-main h4 a:hover {
+    color: red;
+}
+
+.context-main .time-content .title-context {
+    color: #589CC6;
+    font-family:' MS Mincho';
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    background: #E1E9EF;
+    padding: 7px 8px;
+    margin-right: 42px;
+}
+
+.calendar {
+    color: #333;
+    font-family: 'MS Mincho';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.context-main .time-content i {
+    color: #B2CFE3;
+    font-size: 20px;
+    margin-right: 9px;
+}
+
+.site-font {
+    position: relative;
+}
+
+.site-font h1 {
+    color: #FFF;
+    font-family: 'Sawarabi Mincho';
+    font-size: 38px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.site-product-lunch .container {
+    padding-top: 130px;
+}
+
+.site-product-lunch .container figure {
+    margin-bottom: 23px;
+}
+
+.site-product-lunch .container figcaption p {
+    color: #589CC6;
+    text-align: center;
+    font-family: 'MS Mincho';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -1px;
+    margin-bottom: 26px;
+}
+
+.site-product-lunch .container figcaption p span {
+    color: #333;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.site-product-lunch .container figcaption p .color-red {
+    color: #DE2447;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.span-lunch span{
+    color: #589CC6;
+    font-family: 'MS Mincho';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 5px;
+    background: #E1E9EF;
+    width: 76px;
+    display: inline-block;
+    height: 33px;
+    text-align: center;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-right: 2px;
+}
+
+.span-lunch {
+    text-align: center;
+}
+
+.span-lunch span:last-child {
+    margin-right: 0;
+}
+.text-lunch-bottom p {
+    color: #333;
+    font-family: 'MS Mincho';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -1px;
+    max-width: 240px;
+    margin-bottom: 14px;
+    margin-top: 20px;
+}
+
+.text-lunch-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-product-lunch .container figcaption br {
+    display: block;
+    content: "";
+    margin-top: 14px;
+}
+
+.text-lunch-bottom a{
+    color: #589CC6;
+    font-family: 'MS Mincho';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    max-width: 242px;
+    height: 48px;
+    width: 100%;
+    border: 3px solid #589CC6;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 24px; */
+    position: absolute;
+    bottom: 20px;
+}
+
+.text-lunch-bottom a:hover {
+    color: red;
+    background: #589CC6;
+}
+
+.site-product-lunch .row-item:hover {
+    background: #F8F8F8;
+}
+
+.site-product-lunch .col-md-4 {
+    margin-bottom: 47px;
+}
+
+.row-item {
+    min-height: 552px;
+    position: relative;
+}
+
+.margin-top-lunch {
+    margin-top: 45px;
+    border-top: none;
+    position: relative;
+}
+
+.margin-top-lunch::after {
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    content: "";
+    top: 0;
+    background: #589CC6;
+}

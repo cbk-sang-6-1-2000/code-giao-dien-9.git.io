@@ -1,0 +1,763 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'MS Mincho';
+    src: url('fonts/mincho/MSMINCHO.TTF');
+}
+#wrapper {
+    max-width: 1920px;
+}
+
+.container {
+    max-width: 1170px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.site-header .container .header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header .container .site-menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.site-header .container .site-menu ul li {
+    margin-right: 50px;
+}
+
+.site-header .container .site-menu ul li:last-child {
+    margin-right: 0;
+}
+
+.site-header .container .site-menu ul li a {
+    color: #589CC6;
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.site-header .container .site-menu ul li a:hover {
+    color: #DE2447;
+}
+
+/* css main */
+
+/* css banner */
+.site-main .site-banner img {
+    width: 100%;
+    max-width: 1920px;
+    max-height: 700px;
+}
+
+.site-main .site-banner .owl-nav {
+    display: none;
+}
+
+.site-main .site-banner {
+    position: relative;
+}
+
+.site-main .site-banner .owl-dots {
+    position: absolute;
+    bottom: 1%;
+    left: 9%;
+}
+
+/*news*/
+.title-news {
+    text-align: center;
+}
+.title-news h3 {
+    color: #589CC6;
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 38px;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+}
+.title-news h3::after {
+    content: "News";
+    color: #F2F2F2;
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    position: absolute;
+    left: -23px;
+    bottom: 2px;
+    z-index: -1;
+}
+
+.site-main .site-news .container {
+    padding: 123px 200px 0 200px;
+}
+.site-main .site-news .content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-main .site-news .content ul li nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.site-main .site-news .content ul li{
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 30px;
+    padding-top: 60px;
+
+}
+
+.site-main .site-news .content ul li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.site-main .site-news .index-form ul li:last-child{
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 30px;
+}
+.site-main .site-news .content ul li:nth-child(10) {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.site-main .site-news .content ul li i {
+    flex: 1;
+    text-align: right;
+    color: #333;
+    font-size: 16px;
+    /* align-self: center; */
+}
+
+.site-main .site-news .content ul li .context-news {
+    margin-bottom: 0;
+    margin-left: 30px;
+    color: #333;
+    font-family: 'MS Mincho';
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    /* align-self: center; */
+}
+
+.site-main .site-news .content ul li .context-news:hover {
+    color: red;
+    cursor: pointer;
+}
+.campaign{
+    color: #589CC6;
+    font-family: 'MS Mincho';
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding: 7px 8px;
+    border-radius: 3px;
+    background: #E1E9EF;
+    position: relative;
+}
+
+.campaign::after {
+    color: #979797;
+    font-family: 'MS Mincho';
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    content: "2020年07月22日";
+    width: 100%;
+    top: -27px;
+    left: 0;
+}
+
+.click-news a{
+    color: #FFF;
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 35px;
+    background: #589CC6;
+    text-decoration: none;
+    position: relative;
+}
+
+.click-news a:hover {
+    color: red;
+}
+
+.click-news a::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 1px solid #589CC6;
+    position: absolute;
+    z-index: -1;
+    left: -10px;
+    top: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .click-news a:hover::after {
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-color: #FFF;
+  }
+
+.click-news {
+    margin-top: 59px;
+    text-align: center;
+}
+
+.site-gallery img {
+    width: 100%;
+}
+.site-gallery .row .col-lg-3, .site-gallery .row .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.site-gallery .row-picture-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-gallery .row-picture-2 img{
+    width: 100%;
+}
+.site-gallery {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 148px 20px 140px 20px;
+}
+
+.title-galley h3 {
+    color: #589CC6;
+    font-family: 'Sawarabi Mincho';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline;
+    position: relative;
+}
+
+.title-galley h3::after {
+    content: "Gallery";
+    color: #F2F2F2;
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    position: absolute;
+    left: -30px;
+    bottom: 15px;
+    z-index: -1;
+}
+.title-galley {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.pick-up .container {
+    padding: 130px 0 157px 0;
+}
+
+.pick-up {
+    background: #F5FBFF;
+}
+.slider-item nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.product > div {
+    display: none;
+}
+  
+.product > .active {
+    display: flex;
+}
+
+.product-item h4{
+    margin-top: 10px;
+    color: #589CC6;
+    font-family: 'MS Mincho';
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.content-pick-up {
+    padding-left: 30px;
+}
+
+.context-pick-up {
+    color: #333;
+    font-family: 'MS Mincho';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-top: 1px solid #CADEEB;
+    padding-top: 9px;
+}
+
+.price span {
+    color: #DE2447;
+    font-family: 'MS Mincho';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.price {
+    color: #333;
+    font-family: 'MS Mincho';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 29px;
+}
+
+.slider-item a{
+    color: #333;
+    font-family: 'MS Mincho';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* .pick-up .col-lg-4, .pick-up .col-lg-8 {
+    padding: 0;
+} */
+
+.product {
+    max-width: 820px;
+    width: 100%;
+}
+.product-item a {
+    color: #589CC6;
+    font-family: 'MS Mincho';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.product-item a:hover {
+    color: red;
+}
+
+.slider {
+    position: relative;
+}
+
+.slick-up {
+    bottom: 100%;
+    position: absolute;
+    left: 10%;
+}
+
+.slick-down {
+    position: absolute;
+    top: 97%;
+    left: 10%;
+}
+
+.slider-container button{
+    background: none;
+    border: none;
+}
+
+.slider-container i {
+    font-size: 28px;
+}
+
+.slider-item.not-active {
+    opacity: 0.5;
+}
+
+.picture-pick-up {
+    top: 90.5%;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pick-up .container {
+    position: relative;
+    z-index: 0;
+}
+
+.title-pick {
+    text-align: center;
+}
+.title-pick h3 {
+    color: #589CC6;
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 38px;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 60px;
+}
+.title-pick h3::after {
+    content: "Menu";
+    color: #F2F2F2;
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    position: absolute;
+    left: 46px;
+    bottom: 2px;
+    z-index: -1;
+}
+
+.menu-pick {
+    max-width: 370px;
+    width: 100%;
+}
+
+.picture-pick-up .col-lg-4 {
+    padding: 0;
+}
+
+.picture-sum {
+    position: relative;
+}
+
+.picture-sum::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(37, 68, 89, 0.40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: 'MS Mincho';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.picture-left::after {
+    content: "ランチメニュー";
+}
+
+.picture-center::after {
+    content: "ディナーメニュー";
+}
+
+.picture-right::after {
+    content: "テイクアウトメニュー ";
+}
+/*map*/
+.map {
+    position: relative;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.site-time {
+    position: absolute;
+    top: 18%;
+    left: 41%;
+    font-family: 'MS Mincho';
+    font-weight: 400;
+    background: #fff;
+    padding: 18px 66px 23px 18px;
+}
+
+.site-time h4 {
+    color: #589CC6;
+    text-align: center;
+    margin-bottom: 14px;
+    font-size: 18px;
+}
+
+.site-time p {
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    border-bottom: 1px solid #EAEAEA;
+    padding-bottom: 7px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.site-time i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.site-time a {
+    color: #333;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.site-time a:hover {
+    color: red;
+}
+
+.site-map {
+    padding-top: 185px;
+}
+
+.title-map h3 {
+    color: #589CC6;
+    font-family: 'Sawarabi Mincho';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline;
+    position: relative;
+}
+
+.title-map h3::after {
+    content: "Map";
+    color: #F2F2F2;
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    z-index: -1;
+}
+
+.title-map {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.site-footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    flex-direction: column;
+    padding-bottom: 67px;
+}
+
+.site-footer .container ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-footer .container ul li {
+    margin-right: 17px;
+}
+
+.site-footer .container ul li i {
+    font-size: 20px;
+    color: #FFF;
+    background: #ACB9C1;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.site-footer .container ul li a {
+    text-decoration: none;
+}
+
+.site-footer .container ul li i:hover {
+    background: red;
+}
+
+.brand-footer {
+    margin-bottom: 48px;
+}
+
+.link-footer {
+    color: #589CC6;
+    text-align: center;
+    font-family: 'MS Mincho';
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    margin-bottom: 41px;
+}
+
+.link-footer:hover {
+    color: red;
+}
+.contact {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 21px;
+    margin-right: 24px;
+    z-index: 999;
+}
+
+.contact a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contact a i {
+    color: #FFF;
+    font-size: 28px;
+    background: #589CC6;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 14px;
+    position: relative;
+}
+
+.contact a i::after {
+    width: 130%;
+    height: 130%;
+    content: "";
+    position: absolute;
+    background: rgb(88, 156, 198, 0.20000000298023224);
+    border-radius: 50%;
+    top: -15%;
+    left: -15%;
+}
+
+.contact a p {
+    color: #254459;
+    font-family: 'MS Mincho';
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 0;
+    max-width: 152px;
+}
+
+.contact a p .phone {
+    color: #333;
+    font-size: 12px;
+    background: rgb(88, 156, 198, 0.20000000298023224);
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+/*phân trang*/
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.pagination {
+    border-top: 1px solid #589CC6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+    margin-bottom: 100px;
+  }
+  
+.pagination a,
+.pagination span {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #589CC6;
+    text-decoration: none;
+    background: #E1E9EF;
+    border: none;
+    font-size: 16px;
+    padding: 10px 14px;
+}
+  
+.pagination .page {
+    padding: 10px 18px;
+}
+.pagination a:hover {
+    background-color: red;
+  }
+  
+.pagination .active {
+    background-color: #589CC6;
+    color: #fff;
+    border: none
+  }
+
+  @keyframes phoneRinging {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+a:hover .icofont-phone {
+    background-color: red;
+    animation: phoneRinging 0.5s infinite;
+}
+
+.site-menu .active {
+    color: red !important;
+}
+
+.menu-bar {
+    display: none;
+    width: 22px;
+    height: 18px;
+    border-top: 1px solid #404041;
+    position: relative;
+    cursor: pointer;
+  }
+  .menu-bar:before,
+  .menu-bar:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #404041;
+  }
+  .menu-bar:before {
+    bottom: 50%;
+  }

@@ -1,0 +1,263 @@
+@media screen and (max-width:1200px) {
+    .site-header .container .header {
+        height: 90px;
+    }
+    .site-header .container .site-menu ul li {
+        margin-right: 30px;
+    }
+
+    .site-header .container .site-menu ul li a {
+        font-size: 16px;
+    }
+
+    .site-gallery .row-picture-2 .img2 img {
+        width: 95%;
+    }
+
+    .site-gallery .row-picture-2 .img2:last-child {
+        text-align: right;
+    }
+
+    .picture-sum {
+        width: 30%;
+        height: 100%;
+    }
+
+    .picture-sum img {
+        width: 100%;
+    }
+
+    .pick-up .row {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-item a {
+        font-size: 14px;
+    }
+
+    .context-pick-up {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .product-item h4 {
+        font-size: 18px;
+    }
+    .product > .active {
+        align-items: center;
+    }
+
+    .price span {
+        font-size: 18px;
+    }
+
+    .price {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .menu-bar {
+        display: block;
+    }
+
+    .site-header .container .site-menu ul {
+        position: absolute;
+        background: #FFF;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        top: 85px;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        z-index: 999;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease 0s;
+        margin-top: 10px;
+    }
+
+    .site-header .container .show ul {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 0;
+        display: block;
+    }
+    .site-header .container .site-menu ul li {
+        display: block;
+        margin: 0;
+    }
+    .site-header .container .site-menu ul li a {
+        display: block;
+        padding: 7px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+    }
+
+    /*main*/
+    .site-main .site-news .container {
+        padding: 70px 100px 0 100px;
+    }
+
+    .title-news h3 {
+        font-size: 30px;
+    }
+
+    .title-news h3::after {
+        font-size: 60px;
+        left: -13px;
+    }
+
+    .site-main .site-news .content ul li .context-news {
+        font-size: 14px;
+    }
+
+    div#picture-1 {
+        width: 50%;
+        -webkit-order: 1;
+    }
+    div#picture-2 {
+        width: 100%;
+        -webkit-order: 3;
+    }
+    div#picture-3 {
+        width: 50%;
+        -webkit-order: 2;
+    }
+
+    .site-gallery .row-picture-2 .img2 img {
+        width: 100%;
+    }
+
+    .img2 {
+        width: 48.5%;
+    }
+
+    .site-gallery .row-picture-2 {
+        margin-top: 20px;
+    }
+
+    .row-picture-2 {
+        margin-bottom: 20px;
+    }
+
+    .site-gallery {
+        padding: 90px 20px;
+    }
+
+    .title-galley h3 {
+        font-size: 30px;
+    }
+
+    .title-galley h3::after {
+        font-size: 60px;
+        left: -20px;
+    }
+
+    .pick-up .container {
+        padding: 70px 20px;
+    }
+
+    .title-pick h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .title-pick h3::after {
+        font-size: 60px;
+    }
+
+    .product {
+        margin-top: 50px;
+        max-width: 100%;
+    }
+
+    .picture-pick-up {
+        width: 95%;
+        top: 95.5%;
+    }
+
+    .site-map {
+        padding-top: 90px;
+    }
+
+    .title-map {
+        margin-bottom: 30px;
+    }
+
+    .title-map h3 {
+        font-size: 30px;
+    }
+
+    .title-map h3::after {
+        font-size: 60px;
+    }
+
+    .site-time {
+        font-size: 14px;
+    }
+
+    .map iframe {
+        height: 500px;
+    }
+
+    .site-footer .container {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .title-news h3 {
+        font-size: 20px;
+    }
+
+    .title-news h3::after {
+        font-size: 40px;
+    }
+
+    .site-main .site-news .container {
+        padding: 40px 15px;
+    }
+
+    .site-main .site-news .content ul li {
+        padding-top: 30px;
+    }
+
+    .site-main .site-news .content ul li .context-news {
+        font-size: 10px;
+    }
+
+    .campaign::after {
+        font-size: 10px;
+    }
+
+    .campaign {
+        font-size: 10px;
+    }
+
+    .click-news a {
+        font-size: 14px;
+        padding: 5px 25px;
+    }
+
+    .click-news {
+        margin-top: 30px;
+    }
+
+    .site-gallery {
+        padding: 40px 15px;
+    }
+
+    .site-gallery .col-lg-3 {
+        padding: 0 5px;
+    }
+
+    .site-gallery .row-picture-2 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .img2 {
+        width: 49%;
+    }
+}
